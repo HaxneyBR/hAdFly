@@ -16,8 +16,13 @@ Simple:
  So when the player send in chat: @adfly the plugin Will a line
  To help you.
 
-  public function PlayerChatEvent(PlayerChatEvent $event) {
+public function PlayerChatEvent(PlayerChatEvent $event) {
+
   $p = $event->getPlayer();
+
   $args = explode(' ', $event->getMessage());
 
-  if ($args[0] === '@adfly')
+  if ($args[0] === '@adfly') {
+  // do something 
+    }
+  }
