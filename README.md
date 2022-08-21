@@ -15,6 +15,7 @@ Simple:
  The plugin active the **PlayerChatEvent**
  So when the player send in chat: @adfly the plugin help you.
 
+```
 public function PlayerChatEvent(PlayerChatEvent $event) {
 
   $p = $event->getPlayer();
@@ -25,7 +26,7 @@ public function PlayerChatEvent(PlayerChatEvent $event) {
   // do something 
     }
   }
-
+```
 • hAdFly( versão em português)
 Uma nova maneira de voar no Minecraft!
 
